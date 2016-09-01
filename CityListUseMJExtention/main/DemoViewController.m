@@ -30,9 +30,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = XXYColor(90, 9, 19);
     //表格进行数据展示
-    [self GetDataFromsever];
+    //[self GetDataFromsever];
     //label 一一展示数据
-    //[self showTextOnLabel];
+    [self showTextOnLabel];
 }
 /**
  *  懒加载tableview
@@ -108,7 +108,7 @@
     } fail:^(NSError *error) {
         
     }];
-#elif 0
+#elif 1
     //
     [[AnalyticalDataManager shareInstance] test2AnalyticalDataSuccess:^(Status *status, NSString *fileName) {
         strongify(self)
@@ -145,7 +145,7 @@
     } fail:^(NSError *error) {
         
     }];
-#elif 1
+#elif 0
     //
     [[AnalyticalDataManager shareInstance] test5AnalyticalDataSuccess:^(ArrayModel *model, NSString *fileName) {
         strongify(self)

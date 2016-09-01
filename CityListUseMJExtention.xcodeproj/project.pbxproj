@@ -35,6 +35,10 @@
 		965091A11D7839A10019611B /* AnalyticalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 965091A01D7839A10019611B /* AnalyticalDataManager.m */; };
 		96F46B401D784ABA00034342 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F46B3E1D784ABA00034342 /* CustomTableViewCell.m */; };
 		96F46B411D784ABA00034342 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F46B3F1D784ABA00034342 /* CustomTableViewCell.xib */; };
+		96F46B431D786BD000034342 /* 屏幕快照 2016-09-01 下午9.46.26.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F46B421D786BD000034342 /* 屏幕快照 2016-09-01 下午9.46.26.png */; };
+		96F46B451D786BD500034342 /* mj.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F46B441D786BD500034342 /* mj.png */; };
+		96F46B471D786BDD00034342 /* mj1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F46B461D786BDD00034342 /* mj1.png */; };
+		96F46B491D786BE400034342 /* mj2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F46B481D786BE400034342 /* mj2.png */; };
 		D775A6AB3EAF95EB6860297A /* libPods-CityListUseMJExtention.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3BE581A88F12F99E3A1014 /* libPods-CityListUseMJExtention.a */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +114,10 @@
 		96F46B3D1D784ABA00034342 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		96F46B3E1D784ABA00034342 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		96F46B3F1D784ABA00034342 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		96F46B421D786BD000034342 /* 屏幕快照 2016-09-01 下午9.46.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-09-01 下午9.46.26.png"; sourceTree = "<group>"; };
+		96F46B441D786BD500034342 /* mj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mj.png; sourceTree = "<group>"; };
+		96F46B461D786BDD00034342 /* mj1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mj1.png; sourceTree = "<group>"; };
+		96F46B481D786BE400034342 /* mj2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mj2.png; sourceTree = "<group>"; };
 		E5289A48FCB5C348E820BA57 /* Pods-CityListUseMJExtention.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityListUseMJExtention.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityListUseMJExtention/Pods-CityListUseMJExtention.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -368,6 +376,10 @@
 		9650919E1D7839810019611B /* AnalyticalDataManager */ = {
 			isa = PBXGroup;
 			children = (
+				96F46B421D786BD000034342 /* 屏幕快照 2016-09-01 下午9.46.26.png */,
+				96F46B441D786BD500034342 /* mj.png */,
+				96F46B461D786BDD00034342 /* mj1.png */,
+				96F46B481D786BE400034342 /* mj2.png */,
 				9650919F1D7839A10019611B /* AnalyticalDataManager.h */,
 				965091A01D7839A10019611B /* AnalyticalDataManager.m */,
 			);
@@ -491,12 +503,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F46B451D786BD500034342 /* mj.png in Resources */,
 				9610C23D1D76CD4300AC5C55 /* Assets.xcassets in Resources */,
 				9610C2401D76CD4300AC5C55 /* LaunchScreen.storyboard in Resources */,
 				965091811D7810E00019611B /* data1.txt in Resources */,
 				965091901D782A040019611B /* data4.txt in Resources */,
 				9650917F1D7810DB0019611B /* sampleDict.rtf in Resources */,
+				96F46B471D786BDD00034342 /* mj1.png in Resources */,
+				96F46B431D786BD000034342 /* 屏幕快照 2016-09-01 下午9.46.26.png in Resources */,
 				96F46B411D784ABA00034342 /* CustomTableViewCell.xib in Resources */,
+				96F46B491D786BE400034342 /* mj2.png in Resources */,
 				965091881D7822D60019611B /* data3.txt in Resources */,
 				965091961D7834040019611B /* data5.txt in Resources */,
 				965091831D781ACC0019611B /* data2.txt in Resources */,
