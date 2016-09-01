@@ -1,0 +1,8 @@
+{
+"name": "Jack",
+"icon": "lufy.png",
+"age": 20,
+"height": "1.55",
+"money": 100.9,
+"gay":1
+}

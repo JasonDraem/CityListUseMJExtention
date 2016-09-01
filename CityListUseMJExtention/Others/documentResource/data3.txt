@@ -1,0 +1,29 @@
+{
+    "statuses" : [
+        {
+            "text" : "Nice weather!",
+            "user" : {
+                        "name" : "Rose",
+                        "icon" : "nami.png"
+                    }
+                },
+        {
+            "text" : "Go camping tomorrow!",
+            "user" : {
+                        "name" : "Jack",
+                        "icon" : "lufy.png"
+                    }
+                }
+    ],
+    "ads" : [
+        {
+            "image" : "ad01.png",
+            "url" : "http://www.ad01.com"
+        },
+        {
+            "image" : "ad02.png",
+            "url" : "http://www.ad02.com"
+        }
+    ],
+    "totalNumber" : "2014"
+}
