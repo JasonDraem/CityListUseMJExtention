@@ -8,6 +8,7 @@
 
 #import "DemoViewController.h"
 #import "CustomTableViewCell.h"
+#import "JasonMJExtensionViewController.h"
 
 #import "User.h"
 #import "Status.h"
@@ -29,10 +30,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = XXYColor(90, 9, 19);
+    [self setupUI];
     //表格进行数据展示
-    //[self GetDataFromsever];
-    //label 一一展示数据
-    [self showTextOnLabel];
+    [self GetDataFromsever];
+}
+- (void)setupUI{
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"详情" style:UIBarButtonItemStylePlain target:self action:@selector(rightItemHandler)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+}
+
+- (void)rightItemHandler{
+    JasonMJExtensionViewController *jasonVC = [[JasonMJExtensionViewController alloc] init];
+    [self.navigationController pushViewController:jasonVC animated:YES];
 }
 /**
  *  懒加载tableview
@@ -93,70 +102,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 90;
-}
-#pragma mark - label
-- (void)showTextOnLabel{
-    weakify(self)
-    self.showTextLabel = [AnalyticalDataManager showTextOnLabel];
-    [self.view addSubview:self.showTextLabel];
-#if 0
-    [[AnalyticalDataManager shareInstance] test1AnalyticalDataSuccess:^(User *user, NSString *fileName) {
-        strongify(self)
-        [strong_self navigationItemTitle:fileName];
-        strong_self.showTextLabel.text = [NSString stringWithFormat:@"\n name:%@\n icon:%@\n age:%u\n height:%@\n money:%@\n gay:%d",user.name,user.icon,user.age,user.height,user.money,user.gay];
-    } fail:^(NSError *error) {
-        
-    }];
-#elif 1
-    //
-    [[AnalyticalDataManager shareInstance] test2AnalyticalDataSuccess:^(Status *status, NSString *fileName) {
-        strongify(self)
-        [strong_self navigationItemTitle:fileName];
-        strong_self.showTextLabel.text = [NSString stringWithFormat:@"user:\n%@\n%@\n%@\n \n retweetedStatus:\n%@\n%@\n%@\n", status.text, status.user.name, status.user.icon, status.retweetedStatus.text, status.retweetedStatus.user.name, status.retweetedStatus.user.icon];
-    } fail:^(NSError *error) {
-        
-    }];
-#elif 0
-    //
-    [[AnalyticalDataManager shareInstance] test3AnalyticalDataSuccess:^(StatusResult *result, NSString *fileName) {
-        strongify(self)
-        [strong_self navigationItemTitle:fileName];
-        for (Status *status in result.statuses) {
-            [strong_self.dataSource addObject:status];
-            strong_self.showTextLabel.text = [NSString stringWithFormat:@"\n%@\n%@\n%@", status.text, status.user.name, status.user.icon];
-        }
-        //ads
-        for (AdModel *ad in result.ads) {
-            //NSLog(@"\n%@\n%@", ad.image, ad.url);
-            [strong_self.dataSource addObject:ad];
-        }
-        
-        NSLog(@"%@", strong_self.dataSource);
-    } fail:^(NSError *error) {
-        
-    }];
-#elif 0
-    //
-    [[AnalyticalDataManager shareInstance] test4AnalyticalDataSuccess:^(Student *student, NSString *fileName) {
-        strongify(self)
-        [strong_self navigationItemTitle:fileName];
-        strong_self.showTextLabel.text = [NSString stringWithFormat:@"\nID: %@\ndesciption: %@\nnewName: %@\noldName: %@\nnameChangedTime: %@\ntestData: %@", student.ID, student.desc, student.stu_NewName, student.stu_OldName, student.nameChangedTime, student.testData];
-    } fail:^(NSError *error) {
-        
-    }];
-#elif 0
-    //
-    [[AnalyticalDataManager shareInstance] test5AnalyticalDataSuccess:^(ArrayModel *model, NSString *fileName) {
-        strongify(self)
-        //其实有不止一个model 仅仅是添加  实际应用中根据数据进行处理
-        [strong_self.dataSource addObject:model];
-        [strong_self navigationItemTitle:fileName];
-        strong_self.showTextLabel.text = [NSString stringWithFormat:@"\nname: %@\nicon: %@", model.name, model.icon];
-    } fail:^(NSError *error) {
-        
-    }];
-#endif
+    return 60;
 }
 /**
  *   导航标题 可以不单独方法

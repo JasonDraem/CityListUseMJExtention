@@ -26,8 +26,8 @@ static  AnalyticalDataManager *_shareInstance = nil;
     return _shareInstance;
 }
 
-+ (UILabel *)showTextOnLabel{
-    UILabel *label = [[UILabel alloc] initWithFrame:XXYScreenBounds];
++ (UILabel *)createLabel{
+    UILabel *label = [[UILabel alloc] init];
     label.backgroundColor = [UIColor colorWithHexString:@"#ddeeff"];
     label.textAlignment = NSTextAlignmentCenter;
     label.numberOfLines = 0;

@@ -13,7 +13,7 @@ typedef void(^FailBlock)(NSError *error);
 
 @interface AnalyticalDataManager : NSObject
 + (instancetype)shareInstance;
-+ (UILabel *)showTextOnLabel;
++ (UILabel *)createLabel;
 /**
  *  简单的字典模型
  *

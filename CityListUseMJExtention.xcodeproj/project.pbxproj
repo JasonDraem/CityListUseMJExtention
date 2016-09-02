@@ -33,6 +33,7 @@
 		965091961D7834040019611B /* data5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 965091951D7834040019611B /* data5.txt */; };
 		9650919D1D7835E80019611B /* ArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9650919C1D7835E80019611B /* ArrayModel.m */; };
 		965091A11D7839A10019611B /* AnalyticalDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 965091A01D7839A10019611B /* AnalyticalDataManager.m */; };
+		9677D7461D79045D003FB08C /* JasonMJExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9677D7451D79045D003FB08C /* JasonMJExtensionViewController.m */; };
 		96F46B401D784ABA00034342 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F46B3E1D784ABA00034342 /* CustomTableViewCell.m */; };
 		96F46B411D784ABA00034342 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F46B3F1D784ABA00034342 /* CustomTableViewCell.xib */; };
 		96F46B431D786BD000034342 /* 屏幕快照 2016-09-01 下午9.46.26.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F46B421D786BD000034342 /* 屏幕快照 2016-09-01 下午9.46.26.png */; };
@@ -75,24 +76,24 @@
 		9610C2511D76CD4400AC5C55 /* CityListUseMJExtentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityListUseMJExtentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9610C2551D76CD4400AC5C55 /* CityListUseMJExtentionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityListUseMJExtentionUITests.m; sourceTree = "<group>"; };
 		9610C2571D76CD4400AC5C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9610C2661D76CDAF00AC5C55 /* CitylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitylistViewController.h; sourceTree = "<group>"; };
-		9610C2671D76CDAF00AC5C55 /* CitylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitylistViewController.m; sourceTree = "<group>"; };
+		9610C2661D76CDAF00AC5C55 /* CitylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CitylistViewController.h; path = ../CitylistViewController.h; sourceTree = "<group>"; };
+		9610C2671D76CDAF00AC5C55 /* CitylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CitylistViewController.m; path = ../CitylistViewController.m; sourceTree = "<group>"; };
 		9610C26B1D76D1D000AC5C55 /* UIColor+XXYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XXYExtension.h"; sourceTree = "<group>"; };
 		9610C26C1D76D1D000AC5C55 /* UIColor+XXYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XXYExtension.m"; sourceTree = "<group>"; };
 		9610C26E1D76D1D000AC5C55 /* ClearSDImageCachesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearSDImageCachesManager.h; sourceTree = "<group>"; };
 		9610C26F1D76D1D000AC5C55 /* ClearSDImageCachesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearSDImageCachesManager.m; sourceTree = "<group>"; };
 		9610C2711D76D1D000AC5C55 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		9610C2731D76D1D000AC5C55 /* urlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urlHeader.h; sourceTree = "<group>"; };
-		9610C2761D76D36A00AC5C55 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		9610C2771D76D36A00AC5C55 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9610C2761D76D36A00AC5C55 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
+		9610C2771D76D36A00AC5C55 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
 		9610C27A1D76D38000AC5C55 /* XXYRequestManager+CityListProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XXYRequestManager+CityListProxy.h"; sourceTree = "<group>"; };
 		9610C27B1D76D38000AC5C55 /* XXYRequestManager+CityListProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XXYRequestManager+CityListProxy.m"; sourceTree = "<group>"; };
 		9610C27C1D76D38000AC5C55 /* XXYRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXYRequestManager.h; sourceTree = "<group>"; };
 		9610C27D1D76D38000AC5C55 /* XXYRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXYRequestManager.m; sourceTree = "<group>"; };
 		9610C2801D76D3D400AC5C55 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
 		9610C2811D76D3D400AC5C55 /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
-		965091771D780FF40019611B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
-		965091781D780FF40019611B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		965091771D780FF40019611B /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewController.h; path = ../DemoViewController.h; sourceTree = "<group>"; };
+		965091781D780FF40019611B /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoViewController.m; path = ../DemoViewController.m; sourceTree = "<group>"; };
 		9650917A1D7810740019611B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../User.h; sourceTree = "<group>"; };
 		9650917B1D7810740019611B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
 		9650917E1D7810DB0019611B /* sampleDict.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = sampleDict.rtf; sourceTree = "<group>"; };
@@ -111,6 +112,8 @@
 		9650919C1D7835E80019611B /* ArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayModel.m; sourceTree = "<group>"; };
 		9650919F1D7839A10019611B /* AnalyticalDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticalDataManager.h; sourceTree = "<group>"; };
 		965091A01D7839A10019611B /* AnalyticalDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticalDataManager.m; sourceTree = "<group>"; };
+		9677D7441D79045D003FB08C /* JasonMJExtensionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JasonMJExtensionViewController.h; sourceTree = "<group>"; };
+		9677D7451D79045D003FB08C /* JasonMJExtensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JasonMJExtensionViewController.m; sourceTree = "<group>"; };
 		96F46B3D1D784ABA00034342 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		96F46B3E1D784ABA00034342 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		96F46B3F1D784ABA00034342 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
@@ -232,12 +235,8 @@
 		9610C2631D76CD7D00AC5C55 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				9610C2761D76D36A00AC5C55 /* BaseViewController.h */,
-				9610C2771D76D36A00AC5C55 /* BaseViewController.m */,
-				9610C2661D76CDAF00AC5C55 /* CitylistViewController.h */,
-				9610C2671D76CDAF00AC5C55 /* CitylistViewController.m */,
-				965091771D780FF40019611B /* DemoViewController.h */,
-				965091781D780FF40019611B /* DemoViewController.m */,
+				9677D7431D79032C003FB08C /* cityListVC */,
+				9677D7421D79030B003FB08C /* learnMJEXtensionVC */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -385,6 +384,28 @@
 			);
 			name = AnalyticalDataManager;
 			path = helper;
+			sourceTree = "<group>";
+		};
+		9677D7421D79030B003FB08C /* learnMJEXtensionVC */ = {
+			isa = PBXGroup;
+			children = (
+				965091771D780FF40019611B /* DemoViewController.h */,
+				965091781D780FF40019611B /* DemoViewController.m */,
+				9677D7441D79045D003FB08C /* JasonMJExtensionViewController.h */,
+				9677D7451D79045D003FB08C /* JasonMJExtensionViewController.m */,
+			);
+			path = learnMJEXtensionVC;
+			sourceTree = "<group>";
+		};
+		9677D7431D79032C003FB08C /* cityListVC */ = {
+			isa = PBXGroup;
+			children = (
+				9610C2761D76D36A00AC5C55 /* BaseViewController.h */,
+				9610C2771D76D36A00AC5C55 /* BaseViewController.m */,
+				9610C2661D76CDAF00AC5C55 /* CitylistViewController.h */,
+				9610C2671D76CDAF00AC5C55 /* CitylistViewController.m */,
+			);
+			path = cityListVC;
 			sourceTree = "<group>";
 		};
 		96F46B3C1D784A9800034342 /* views */ = {
@@ -590,6 +611,7 @@
 			files = (
 				96F46B401D784ABA00034342 /* CustomTableViewCell.m in Sources */,
 				9610C23B1D76CD4300AC5C55 /* AppDelegate.m in Sources */,
+				9677D7461D79045D003FB08C /* JasonMJExtensionViewController.m in Sources */,
 				9610C2821D76D3D400AC5C55 /* CityModel.m in Sources */,
 				9610C2781D76D36A00AC5C55 /* BaseViewController.m in Sources */,
 				965091791D780FF40019611B /* DemoViewController.m in Sources */,
